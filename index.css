@@ -1,0 +1,101 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.image-container img {
+  width: 500px;
+  height: 600px;
+  border-radius: 8px;
+}
+
+.signUp-container {
+  width: 350px;
+  padding: 2rem;
+}
+
+.signUp-container h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.password-input {
+  position: relative;
+}
+.confirmPassword-input {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.signin-btn,
+.wallet-btn {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.signin-btn {
+  background-color: #000;
+  color: white;
+}
+
+/* .wallet-btn {
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+} */
+
+/* .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+} */
+
+.forgot-password,
+.signup-link {
+  color: #666;
+  text-decoration: none;
+}
+.footer-p {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.footer-p p {
+  cursor: pointer;
+  opacity: 0.6;
+}

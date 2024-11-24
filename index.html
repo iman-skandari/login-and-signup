@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ImanEskandari-Login</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="image-container">
+        <img src="./assets/img/image 53.png" alt="" />
+      </div>
+      <div class="signUp-container">
+        <h1>Sign Up</h1>
+        <form class="signUp-form">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="password-input">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter password"
+                required
+              />
+              <span class="password-toggle">👁️</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <div class="confirmPassword-input">
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                placeholder="Confirm your password"
+                required
+              />
+              <span class="password-toggle">👁️</span>
+            </div>
+          </div>
+          <button type="submit" class="signin-btn">Sign in</button>
+          <div class="form-footer">
+            <a href="#" class="forgot-password">Forgot Password?</a>
+            <span>or</span>
+            <a href="#" id="login-button">Login</a>
+          </div>
+          <!-- 
+          <button type="button" class="wallet-btn">
+            <span class="wallet-icon">💳</span>
+            Log in by wallet
+          </button> -->
+        </form>
+        <div class="footer-p">
+          <p>Terms and Conditions</p>
+          <p>Privacy policy</p>
+        </div>
+      
+      </div>
+    </main>
+  </body>
+</html>
