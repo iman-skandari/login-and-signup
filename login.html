@@ -3,13 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
     <script src="index.js"></script>
   </head>
   <body>
-    <h1>
-        adsccadd
-    </h1>
+    <main class="main-container">
+      <div class="image-container">
+        <img src="./assets/img/image 53.png" alt="" />
+      </div>
+      <div class="signUp-container">
+        <h1>Login</h1>
+        <form class="signUp-form">
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="password-input">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter password"
+                required
+              />
+              <!-- <span class="password-toggle">👁️</span> -->
+            </div>
+          </div>
+
+          <button type="submit" class="login-btn">Login</button>
+          <div class="form-footer">
+            <a href="#" class="forgot-password">Forgot Password?</a>
+            <span>or</span>
+            <a href="index.html" id="signup-button">SignUp</a>
+          </div>
+          <div style="display: flex; margin: 1rem 0">
+            <hr
+              style="
+                border: 1px solid lightgray;
+                width: 160px;
+                text-align: end;
+                margin: 0.5rem 0;
+              "
+            />
+            <span
+              style="
+                position: relative;
+
+                background: white;
+                padding: 0 10px;
+                display: inline-block;
+                margin: 0 0;
+              "
+              >or</span
+            >
+            <hr
+              style="
+                border: 1px solid lightgray;
+                text-align: center;
+                width: 160px;
+                text-align: end;
+                margin: 0.5rem 0;
+              "
+            />
+          </div>
+          <button type="button" class="wallet-btn">
+            <span class="wallet-icon">💳</span>
+            Log in by wallet
+          </button>
+        </form>
+        <div class="footer-p">
+          <p>Terms and Conditions</p>
+          <p>Privacy policy</p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
